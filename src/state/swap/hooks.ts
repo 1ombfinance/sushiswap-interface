@@ -89,8 +89,8 @@ export function useSwapActionHandlers(): {
 // TODO: Swtich for ours...
 const BAD_RECIPIENT_ADDRESSES: { [chainId: string]: { [address: string]: true } } = {
   [ChainId.ETHEREUM]: {
-    '0xC0AEe478e3658e2610c5F7A4A2E1777cE9e4f2Ac': true, // v2 factory
-    '0xd9e1cE17f2641f24aE83637ab66a2cca9C378B9F': true, // v2 router 02
+    '0xd9145CCE52D386f254917e481eB44e9943F39138': true, // v2 factory
+    '0xd8b934580fcE35a11B58C6D73aDeE468a2833fa8': true, // v2 router 02
   },
 }
 
